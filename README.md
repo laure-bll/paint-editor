@@ -9,7 +9,9 @@ Lancer le fichier my_paint.html dans un navigateur.
 # fabrication 
 
 - HTML5 / CSS3
-- Frameword JQuery
+- Javascript
+- JQuery
+- Composant canvas
 
 # creation
 
