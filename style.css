@@ -1,0 +1,119 @@
+body
+{
+    background: url("images/palmier.jpeg");
+    background-size: cover;
+    margin: auto;
+}
+
+header
+{
+    margin: 2%;
+}
+
+#logo-left
+{
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    width: 40px;
+}
+
+#logo-right
+{
+    position: absolute;
+    top: 20px;
+    right: 400px;
+    width: 40px;
+}
+
+h1
+{
+    margin: 1%;
+    text-align: center;
+    color: rgba(19, 18, 18, 0.829);
+    text-shadow: 4px 2px 4px rgb(216, 200, 200);
+    font-weight: bold;
+    font-size: 3em;
+}
+
+#slogan
+{
+    text-align: center;
+    font-style: italic;
+    text-shadow: 1px 1px 1px rgb(105, 100, 100);
+}
+
+#cadre
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#canvas
+{
+    background: white;
+}
+
+.buttons
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+}
+
+.buttons-left
+{
+    top: 200px;
+    left: 50px;
+}
+
+.buttons-right
+{
+    top: 200px;
+    right: 80px;
+}
+
+button
+{
+    border: none;
+    margin: 2%;
+    width: 50px;
+    background: transparent;
+}
+
+button:hover
+{
+    cursor: pointer;
+}
+
+.img-large
+{
+    width: 30px;
+    padding-left: 10px;
+}
+
+.img-large:hover
+{
+    width: 35px;
+}
+
+img
+{
+    width: 55px;
+}
+
+img:hover
+{
+    width: 60px;
+}
+
+input
+{
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    margin: 5px;
+    width: 40px;
+    height: 35px;
+}

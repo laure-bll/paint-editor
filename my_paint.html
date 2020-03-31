@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>My Paint</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="images/pinceau.png"/>
+    </head>
+
+    <body>
+        <header>
+            <p><img src='images/frida.png' alt='icone peintre' id='logo-left'/></p>
+            <h1>PAINT IT</h1>
+            <p id='slogan'>For the creative ones</p>
+            <p><img src='images/frida.png' alt='frida kahlo' id='logo-right'/></p>
+        </header>
+
+        <div class="container">
+            <div id="cadre">
+                <div class= "buttons buttons-left">
+                    <button id='crayon'><img src='images/pencil-icon.png' alt='icone crayon' title='crayon'/></button>
+                    <button id='gomme'><img src='images/gomme.png' alt='icone gomme' title='gomme'/></button>
+                    <button id='ligne'><img src='images/regle.png' alt='icone règle et crayon' title='ligne'/></button>
+                    <button id='sauvegarde'><a href="#" download="painting.png"><img src='images/save.png' alt='icone sauvegarde' title='télécharger'/></a></button>
+                    <button><input name="couleur" id="couleur" type="color" value="#000000" title="couleur"></button>
+                </div>
+                <div class="buttons buttons-right">
+                    <button id='polygone'><img src='images/polygone.png' alt='icone etoiles' title='lasso'/></button>
+                    <button id='augmenter'><img src='images/bigger.png' alt='icone homme gros' title='augmenter le trait'  class='img-large'/></button>
+                    <button id='diminuer'><img src='images/small.png' alt='icone homme maigre' title='diminuer le trait' class='img-large'/></button>
+                    <button id='fond'><img src='images/fond.png' alt='icone peinture' title='fond'/></button>
+                    <button id='poubelle'><img src='images/trash.png' alt='icone poubelle' title='effacer' class='img-large'/></button>
+                </div>
+
+                <canvas id="canvas" width="900px" height="500px"></canvas>
+            </div>
+        </div>
+
+        <script src="jquery-3.4.1.min.js"></script>
+        <script src="my_paint.js"></script>
+        <script src="my_paint.js"></script>
+    </body>
+</html>
+
